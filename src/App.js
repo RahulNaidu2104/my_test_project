@@ -1,14 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './index_FirstExample_FunctionalComponent_ClassComponent.js';
+//import Welcome from './index_FirstExample_FunctionalComponent_ClassComponent.js';
+import StringCount from './StringCount.js';
 
 function App() {
   return (
     <div className="App">
-        <Welcome/>
-        <Welcome/>
-        <Welcome/>
-       
+        <StringCount name="abbcccdddd"/>
     </div>
   );
 }
