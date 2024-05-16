@@ -1,0 +1,14 @@
+.CustomerDetails {
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+    display: inline-block;
+}
+
+#Box {
+    background-color: aqua;
+    margin: auto;
+    height: 150px;
+    width: 350px;   
+    margin-top: 10px;
+}
