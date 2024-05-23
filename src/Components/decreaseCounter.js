@@ -22,7 +22,7 @@ class DecreaseCount extends Component
         return(
             <div>
                 <h2>Count is - {this.state.count}</h2>
-                <button onClick={() => this.decrease()} style={{height: 30,fontSize:20,color: "blue",fontWeight: "bold",fontStyle: "italic"}}> Click to Decrease</button>
+                <button onClick={this.decrease} style={{height: 30,fontSize:20,color: "blue",fontWeight: "bold",fontStyle: "italic"}}> Click to Decrease</button>
             </div>
         )
     }
