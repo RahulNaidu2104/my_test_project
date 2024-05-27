@@ -5,6 +5,7 @@ import './App.css';
 //import StudentLogIn from './Components/ConditionalFunctionalComponent.js';
 //import BankCustomer from './Components/BankCustomer.js';
 import DecreaseCount from './Components/decreaseCounter';
+import LinearSearch from './Components/TaskLinearSearch'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         {/* <StringCount name="abbcccdddd"/> */}
         {/* <StudentLogIn name="Rahul" sportsname="Cricket" /> */}
         {/* <BankCustomer/> */}
-        <DecreaseCount/>
+        {/* <DecreaseCount/> */}
+        <LinearSearch/>
     </div>
   );
 }
