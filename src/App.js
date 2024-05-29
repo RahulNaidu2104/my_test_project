@@ -9,7 +9,8 @@ import './App.css';
 // import GetData from './Components/GetData_APIEndPoint';
 // import PracticeAPIGet from './Components/GetData_APIPractice'; 
 // import PostData from './Components/PostDataAPIPractice';
-import PostDataAPI from './Components/PostData_APIEndPoint';
+// import PostDataAPI from './Components/PostData_APIEndPoint';
+import IncreaseDecreaseCounter from './Components/IncreaseDecreaseCounterHooks';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         {/* <GetData></GetData> */}
         {/* <PracticeAPIGet></PracticeAPIGet> */}
         {/* <PostData></PostData> */}
-        <PostDataAPI></PostDataAPI>
+        {/* <PostDataAPI></PostDataAPI> */}
+        <IncreaseDecreaseCounter></IncreaseDecreaseCounter>
     </div>
   );
 }
