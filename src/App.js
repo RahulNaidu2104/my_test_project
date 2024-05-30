@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react'
 //import Welcome from './index_FirstExample_FunctionalComponent_ClassComponent.js';
 //import StringCount from './StringCount.js';
 //import StudentLogIn from './Components/ConditionalFunctionalComponent.js';
@@ -10,7 +11,11 @@ import './App.css';
 // import PracticeAPIGet from './Components/GetData_APIPractice'; 
 // import PostData from './Components/PostDataAPIPractice';
 // import PostDataAPI from './Components/PostData_APIEndPoint';
-import IncreaseDecreaseCounter from './Components/IncreaseDecreaseCounterHooks';
+// import IncreaseDecreaseCounter from './Components/IncreaseDecreaseCounterHooks';
+// import ComponentA1 from './Components/useContextPractice/ComponentA1';
+import ComponentA2 from './Components/useContextPractice/ComponentA2';
+
+export const Context = React.createContext();
 
 function App() {
   return (
@@ -24,7 +29,11 @@ function App() {
         {/* <PracticeAPIGet></PracticeAPIGet> */}
         {/* <PostData></PostData> */}
         {/* <PostDataAPI></PostDataAPI> */}
-        <IncreaseDecreaseCounter></IncreaseDecreaseCounter>
+        {/* <IncreaseDecreaseCounter></IncreaseDecreaseCounter> */}
+        {/* <ComponentA1 name='Rahul'/> */}
+        <Context.Provider value= {'Rahul'}>
+          <ComponentA2/>
+        </Context.Provider>
     </div>
   );
 }
