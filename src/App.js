@@ -13,9 +13,10 @@ import React from 'react'
 // import PostDataAPI from './Components/PostData_APIEndPoint';
 // import IncreaseDecreaseCounter from './Components/IncreaseDecreaseCounterHooks';
 // import ComponentA1 from './Components/useContextPractice/ComponentA1';
-import ComponentA2 from './Components/useContextPractice/ComponentA2';
+// import ComponentA2 from './Components/useContextPractice/ComponentA2';
+import UseEffectPractice from './Components/useEffectPractice';
 
-export const Context = React.createContext();
+// export const Context = React.createContext();
 
 function App() {
   return (
@@ -31,9 +32,10 @@ function App() {
         {/* <PostDataAPI></PostDataAPI> */}
         {/* <IncreaseDecreaseCounter></IncreaseDecreaseCounter> */}
         {/* <ComponentA1 name='Rahul'/> */}
-        <Context.Provider value= {'Rahul'}>
+        {/* <Context.Provider value= {'Rahul'}>
           <ComponentA2/>
-        </Context.Provider>
+        </Context.Provider> */}
+        <UseEffectPractice></UseEffectPractice>
     </div>
   );
 }
