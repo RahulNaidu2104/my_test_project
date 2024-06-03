@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import StudentDetails from './Components/displayStudentDetailsList';
 //import Welcome from './index_FirstExample_FunctionalComponent_ClassComponent.js';
 //import StringCount from './StringCount.js';
 //import StudentLogIn from './Components/ConditionalFunctionalComponent.js';
@@ -14,7 +15,7 @@ import React from 'react'
 // import IncreaseDecreaseCounter from './Components/IncreaseDecreaseCounterHooks';
 // import ComponentA1 from './Components/useContextPractice/ComponentA1';
 // import ComponentA2 from './Components/useContextPractice/ComponentA2';
-import UseEffectPractice from './Components/useEffectPractice';
+// import UseEffectPractice from './Components/useEffectPractice';
 
 // export const Context = React.createContext();
 
@@ -35,7 +36,8 @@ function App() {
         {/* <Context.Provider value= {'Rahul'}>
           <ComponentA2/>
         </Context.Provider> */}
-        <UseEffectPractice></UseEffectPractice>
+        {/* <UseEffectPractice></UseEffectPractice> */}
+        <StudentDetails></StudentDetails>
     </div>
   );
 }
