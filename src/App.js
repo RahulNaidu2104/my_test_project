@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import StudentDetails from './Components/displayStudentDetailsList';
+// import DisplayTasks from './Task_TaskManager/DisplayTasks';
+// import AddTasks from './Task_TaskManager/AddTasks';
+import TaskManager from './Task_TaskManager/TaskManager';
+// import StudentDetails from './Components/displayStudentDetailsList';
 //import Welcome from './index_FirstExample_FunctionalComponent_ClassComponent.js';
 //import StringCount from './StringCount.js';
 //import StudentLogIn from './Components/ConditionalFunctionalComponent.js';
@@ -37,7 +40,25 @@ function App() {
           <ComponentA2/>
         </Context.Provider> */}
         {/* <UseEffectPractice></UseEffectPractice> */}
-        <StudentDetails></StudentDetails>
+        {/* <StudentDetails></StudentDetails> */}
+        {/* <DisplayTasks Task = 
+        {
+          [
+            {
+              Title: "Sample1",
+              Description: "SampleDecription1",
+              Status: "Completed"
+            },
+            {
+              Title: "Sample2",
+              Description: "SampleDecription2",
+              Status: "In Progress"
+            }
+          ]
+        }></DisplayTasks>
+        <br></br>
+        <AddTasks></AddTasks> */}
+        <TaskManager></TaskManager>
     </div>
   );
 }
